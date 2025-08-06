@@ -1,0 +1,44 @@
+
+[functions.google-oauth]
+enabled = true
+verify_jwt = true
+import_map = "./functions/google-oauth/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/google-oauth/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/google-oauth/*.html" ]
+
+[functions.check-availability]
+enabled = true
+verify_jwt = true
+import_map = "./functions/check-availability/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/check-availability/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/check-availability/*.html" ]
+
+[functions.create-booking]
+enabled = true
+verify_jwt = true
+import_map = "./functions/create-booking/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/create-booking/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/create-booking/*.html" ]
+
+[functions.calendar-oauth]
+enabled = true
+verify_jwt = true
+import_map = "./functions/calendar-oauth/deno.json"
+# Uncomment to specify a custom file path to the entrypoint.
+# Supported file extensions are: .ts, .js, .mjs, .jsx, .tsx
+entrypoint = "./functions/calendar-oauth/index.ts"
+# Specifies static files to be bundled with the function. Supports glob patterns.
+# For example, if you want to serve static HTML pages in your function:
+# static_files = [ "./functions/calendar-oauth/*.html" ]
