@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 body {
-  @apply bg-white text-primary;
+  background-color: theme("colors.white");
+  color: theme("colors.primary");
 }
 
 @layer utilities {
